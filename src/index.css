@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.Menustyle{
+        background-color: aqua;
+        /* display: flex; */
+        height: 60px;
+        display: flex;
+  
+        justify-content: flex-end;
+        
+}
+.ulstyle{
+  margin: 20px;
+ display: flex;
+}
+
+.listyle{
+  margin-right: 50px;
+  list-style: none;
+
+}
+
+.imgdiv{
+  height: 20px;
+  width: 30px;
+}
+
+.about{
+ height: 140px;
+ background-color: rgb(211, 60, 186);
+ color: white;
+ display: block;
+ text-align: center;
+ 
+}
+
+.about_h1{
+  padding-top: 40px;
+}
+.contact{
+ height: 140px;
+ background-color: rgb(230, 120, 57);
+ color: white;
+ display: block;
+ text-align: center;
+ 
+}
+.contact_h1{
+  padding-top: 40px;
+}
+.home{
+ height: 140px;
+ background-color: rgb(219, 93, 114);
+ color: white;
+ display: block;
+ text-align: center;
+ 
+}
+.home_h1{
+  padding-top: 40px;
+}
