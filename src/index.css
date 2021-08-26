@@ -63,3 +63,24 @@
 .home_h1{
   padding-top: 40px;
 }
+.user{
+ height: 140px;
+ background-color: rgb(219, 93, 114);
+ color: white;
+ display: block;
+ text-align: center;
+ 
+ /* margin-top: 10px; */
+}
+.user_h1{
+  padding-top: 40px;
+}
+
+.btn{
+  height: 30px;
+   width: 90px;
+   border-radius: 8px;
+   border: 2px solid red;
+   margin-top: 8px;
+
+}

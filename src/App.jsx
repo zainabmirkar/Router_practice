@@ -2,6 +2,7 @@ import React from 'react';
 import Menu from './Menu';
 import About from './About';
 import Contact from './Contact';
+import User from './User';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" exact component={Home}/>
         <Route path="/about" component={About}/>
         <Route path="/contact" component={Contact}/>
+        <Route path="/user/:name" component={User}/>
         </Switch>
         </div>
     </BrowserRouter>

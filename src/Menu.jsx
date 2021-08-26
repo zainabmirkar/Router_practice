@@ -10,6 +10,7 @@ const Menu=()=> {
               <li className="listyle"> <Link to="/">Home </Link></li>
               <li className="listyle"> <Link to="About">About</Link></li>
               <li className="listyle"> <Link to="Contact">Contact</Link></li>
+              <li className="listyle"> <Link to="User">User</Link></li>
           </ul>
       </div>
     </>
